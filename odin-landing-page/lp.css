@@ -35,10 +35,16 @@ h1{
     align-items: center;
     justify-content: center;
 }
+.container{
+    display: flex;
+}
 .hero_img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    position: absolute;
+    right: 1%;
+    top: 10%;
 }
